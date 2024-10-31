@@ -23,7 +23,7 @@ function gerachaveJSON() {
     chaveJS = {
         numeros: an,
         estrelas: ae,
-        geradapor : 'pedromoreira'
+        geradapor : 'anasilva'
     }
     return JSON.stringify(chaveJS);
 
@@ -36,7 +36,7 @@ function consomeChaveJSON(chavejson) {
 
 function gerachave(e) {
 
-    fetch('http://localhost:3000/euro')
+    fetch('https://sir-4fh0.onrender.com/euro')
         .then((res => res.json()))
         .then((data) => {
             updatechave(data);

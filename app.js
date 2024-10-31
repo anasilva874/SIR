@@ -38,4 +38,3 @@ app.get('/euro', function (req, res) {
 app.listen(3000, function () {
     console.log("app express listening port 3000");
 })
-

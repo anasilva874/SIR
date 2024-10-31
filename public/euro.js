@@ -1,5 +1,3 @@
-
-
 document.addEventListener('DOMContentLoaded', function (e) {
     button = document.getElementById("genBtn");
     button.addEventListener('click', gerachave);
@@ -36,7 +34,7 @@ function consomeChaveJSON(chavejson) {
 
 function gerachave(e) {
 
-    fetch('https://sir-4fh0.onrender.com/euro')
+    fetch('https://sir-1-1d7z.onrender.com/euro')
         .then((res => res.json()))
         .then((data) => {
             updatechave(data);
@@ -71,5 +69,3 @@ function updatechave(chave) {
         listaestrelas.appendChild(newli);
     })
 }
-
-
